@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background: url(/Resources/participationForm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.headingContainer {
+    height: 10vh;
+    width: 70%;
+    text-align: center;
+    color: white;
+    margin-left: auto;    padding-top:20px;
+    margin-right: auto;    background: rgba(0, 0, 0, 0.7);
+
+}
+
+.backButton{
+    float:left;
+    width:fit-content;
+    width:10%;
+    height:10vh;   
+}
+
+.heading{
+    float:right;
+    width:90%;
+    height:10vh;
+}
+
+form {
+    display: table;
+    height: 100vh;
+    width: 70%;
+    margin-left: auto;
+    color: white;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: scroll;
+}
+
+input[name = userId],
+input[name = tournamentId] {
+    display: none;
+}
+
+table {
+    margin: auto;
+    color:white;
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    width: auto;
+}
+
+.submit {
+    text-align: center;
+}
+
+

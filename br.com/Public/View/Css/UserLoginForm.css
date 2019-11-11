@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(/Resources/loginPage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+form [type = submit] {  
+    padding: 1px 6px;
+    border-width: 2px;
+} 
+
+.container {
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    float: right;
+    color: white;
+}
+
+table{
+    float: right;
+    margin-right: 10%;
+}
+table td{
+    padding:7px;
+}
+
+table h1 {
+    font: italic small-caps bold 20px Georgia, Garamond, serif;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.message{
+    color:red;
+}
+.link{
+    color:blue;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.lable{
+    text-align:left;
+}

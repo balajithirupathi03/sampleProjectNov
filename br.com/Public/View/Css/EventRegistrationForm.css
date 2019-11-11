@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background: url(/Resources/eventRegistrationForm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.headingContainer {
+    height: 10vh;
+    width: 70%;
+    text-align: center;
+    background: white;
+    margin-left: auto;
+    color: white;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.7);padding-top:10px;
+}
+
+form {
+    display: table;
+    height: 100vh;
+    width: 70%;
+    margin-left: auto;
+    color: white;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: scroll;
+}
+
+input[name = broucherImage],
+input[name = fixturesImage] {
+    margin: 0;
+    padding: 1px 0px;
+    padding-top: 0px;
+}
+td{
+    padding:5px;
+}
+input {
+    margin: 0 10px;
+}
+
+input[name = userId] {
+    display: none;
+}
+
+table {
+    margin: auto;
+}
+#acccomadtaionHiddenPart{
+    display: none;
+}
+
+#broucherFileCheckMessage,#fixturesFileCheckMessage{
+    display:none;
+    color:red;
+}
